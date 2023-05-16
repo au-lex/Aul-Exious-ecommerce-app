@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.home-container {
+   display: flex;
+}
+
+.vo {
+    width: 150px;
+    height: 150px;
+    padding: 0 .5rem;
+}
+
+.vo img {
+   width: 100%;
+   height: auto; 
+} 
+
+
+
+
+
+ 

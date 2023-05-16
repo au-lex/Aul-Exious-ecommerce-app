@@ -1,0 +1,8 @@
+.Menubar {
+    top: -24rem;
+    transition: .4s ease-in;
+}
+
+.Menubar.active {
+    top: 2rem;
+}

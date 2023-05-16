@@ -1,0 +1,405 @@
+
+.slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -6px;
+  }
+
+  .App2 {
+    width: 90%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .card2 {
+    border: 1px solid #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 12.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 3rem;
+    border: none;
+    
+  }
+
+.banner {
+  background-image: url(../Imagess/mens-banner.jpg);
+  width: 100%;
+  height: 10.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 25px;
+}
+
+.banner2 {
+  background-image: url(../Imagess/womens-banner.jpg);
+  width: 100%;
+  height: 10.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 25px;
+}
+
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+@media screen and (min-width:320px) {
+  .banner {
+    display: block;
+    width: 93%;
+    background-position: center;
+  background-size: contain;
+  border-radius: 0px;
+  margin: 0 auto;
+    
+  }
+  .menCon {
+    display: none;
+  }
+  .menImg {
+    width: 120px;
+  }
+  .banner2 {
+    display: block;
+    width: 93%;
+    background-position: center;
+  background-size: contain;
+  border-radius: 0px;
+  margin: 0 auto;
+  }
+  .bannerimg {
+    display: none;
+  }
+  .banner3 {
+    display: none;
+  }
+
+  .acDP {
+    margin-top: 20rem;
+    display: block;
+  }
+}
+
+@media screen and (min-width:320px) {
+  .banner {
+    display: block;
+    width: 93%;
+    background-position: center;
+  background-size: contain;
+  border-radius: 0px;
+  margin: 0 auto;
+    
+  }
+  .mIMG{
+    display: none;
+  }
+  .menImg {
+    width: 150px;
+  }
+  .banner2 {
+    display: block;
+    width: 93%;
+    background-position: center;
+  background-size: contain;
+  border-radius: 0px;
+  margin: 0 auto;
+  }
+  .bannerimg {
+    display: none;
+  }
+  .banner3 {
+    display: none;
+  }
+
+  .acDP {
+    margin-top: 20rem;
+    display: block;
+  }
+}
+
+@media screen and (min-width:360px) {
+  .banner {
+    display: block;
+    width: 93%;
+    background-position: center;
+  background-size: contain;
+  border-radius: 0px;
+  margin: 0 auto;
+    
+  }
+  .mIMG{
+    display: none;
+  }
+  .menImg {
+    width: 150px;
+  }
+  .banner2 {
+    display: block;
+    width: 93%;
+    background-position: center;
+  background-size: contain;
+  border-radius: 0px;
+  margin: 0 auto;
+  }
+  .bannerimg {
+    display: none;
+  }
+  .banner3 {
+    display: none;
+  }
+
+  .acDP {
+    margin-top: 20rem;
+    display: block;
+  }
+}
+
+@media screen and (min-width:375px) {
+  .banner {
+    display: block;
+    width: 93%;
+    background-position: center;
+  background-size: contain;
+  border-radius: 0px;
+  margin: 0 auto;
+    
+  }
+  .mIMG{
+    display: none;
+  }
+  .menImg {
+    width: 160px;
+  }
+  .banner2 {
+    display: block;
+  }
+  .bannerimg {
+    display: none;
+  }
+  .banner3 {
+    display: none;
+  }
+
+  .acDP {
+    margin-top: 20rem;
+    display: block;
+  }
+}
+
+@media screen and (min-width:390px) {
+  .banner {
+    display: block;
+  }
+  .mIMG{
+    display: none;
+  }
+  .banner2 {
+    display: block;
+  }
+  .bannerimg {
+    display: none;
+  }
+  .banner3 {
+    display: none;
+  }
+
+  .acDP {
+    margin-top: 20rem;
+    display: block;
+  }
+}
+
+@media screen and (min-width:640px) {
+  .bannerimg {
+    display: block;
+    @apply flex justify-center
+  }
+  .banner {
+   display: none;
+  }
+  
+  
+  .mIMG {
+    @apply flex justify-center
+  }
+
+  .m img {
+    width: 100%;
+    height: auto;
+  }
+  .banner2 {
+    display: none;
+  }
+  .banner3 {
+    display: block;
+    @apply flex justify-center
+  }
+
+  .slick-list {
+    margin: 0 -6px;
+  }
+
+ 
+  
+}
+
+@media screen and (min-width:768px) {
+  .bannerimg {
+    display: block;
+    @apply flex justify-center
+  }
+  .banner {
+   display: none;
+  }
+  
+  
+  .mIMG {
+    @apply flex justify-center
+  }
+
+  .m img {
+    width: 100%;
+    height: auto;
+  }
+  .banner2 {
+    display: none;
+  }
+  .banner3 {
+    display: block;
+    @apply flex justify-center
+  }
+
+  .slick-list {
+    margin: 0 -6px;
+  }
+
+  /* .App2 {
+    width: 90%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  } */
+  
+}
+
+@media screen and (min-width:820px) {
+  .bannerimg {
+    display: block;
+    @apply flex justify-center
+  }
+  .banner {
+    display: none;
+  }
+  
+  
+  .mIMG {
+    @apply flex justify-center
+  }
+
+  .m img {
+    width: 100%;
+    height: auto;
+  }
+  .banner2 {
+    display: none;
+  }
+  .banner3 {
+    display: block;
+    @apply flex justify-center
+  }
+
+  .slick-list {
+    margin: 0 -6px;
+  }
+
+  /* .App2 {
+    width: 90%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  } */
+  
+}
+
+@media screen and (min-width:1024px) {
+  .bannerimg {
+    display: block;
+    @apply flex justify-center
+  }
+  .banner {
+    display: none;
+  }
+  
+  
+  .mIMG {
+    @apply flex justify-center
+  }
+
+  .m img {
+    width: 100%;
+    height: auto;
+  }
+  .banner2 {
+    display: none;
+  }
+  .banner3 {
+    display: block;
+    @apply flex justify-center
+  }
+
+  .slick-list {
+    margin: 0 -6px;
+  }
+
+  /* .App2 {
+    width: 90%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  } */
+  
+}
+
+@media screen and (min-width:1200px) {
+  .bannerimg {
+    display: block;
+    @apply flex justify-center
+  }
+  .banner {
+    display: none;
+  }
+  
+  
+  .mIMG {
+    @apply flex justify-center
+  }
+
+  .m img {
+    width: 100%;
+    height: auto;
+  }
+  .banner2 {
+    display: none;
+  }
+  .banner3 {
+    display: block;
+    @apply flex justify-center
+  }
+
+  .slick-list {
+    margin: 0 -6px;
+  }
+
+  /* .App2 {
+    width: 90%;
+    margin-left: 5rem;
+    margin-top: 1rem;
+  } */
+  
+}
